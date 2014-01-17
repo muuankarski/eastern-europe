@@ -6,18 +6,23 @@
 > - your on-going research and/or future plan(s)
 > - where are you heading at and what is your roadmap to this?
 
+>2) We have to find some common platform (2-3 lines of research directions) so please come with a flexible and innovative mind. We all should have an idea of our main (2-3) underlying concepts for further discussion. This is for mapping out our comparative potential within the group, first.
+
+>3) Following the above mentioned we should try to put ourselves into context with the CoE and also with current global scientific trends. What is out there and what could be ground-breaking in that regard?
+
+>4) Please, send me the top 2-3 international journals in your field of study beforehand and I will gather a list for the meeting.
+
+>5) I hope Jouni agrees to prepare a suggestion about how we could contribute to the IKEBB/Ukraine programme. 
+
 # Current
 
 Currently my time is shared between three domains. 
 
 1. my own/collaborative projects within my field of science
 2. software/coding projects
-
-[my project](http://muuankarski.github.io/phdthesis/)
-
-## CoE etc.
-
-- data, research & infrastructure
+    - [my project](http://muuankarski.github.io/phdthesis/)
+3.  CoE etc.
+    - research, data & infrastructure
 
 # Future
 
@@ -38,14 +43,3 @@ Currently my time is shared between three domains.
 As this is a "counter force" to CoE I would like to see Coe to become productive first..
 
 
-# Others questions
-
->2) We have to find some common platform (2-3 lines of research directions) so please come with a flexible and innovative mind. We all should have an idea of our main (2-3) underlying concepts for further discussion. This is for mapping out our comparative potential within the group, first.
-
-
-
->3) Following the above mentioned we should try to put ourselves into context with the CoE and also with current global scientific trends. What is out there and what could be ground-breaking in that regard?
-
->4) Please, send me the top 2-3 international journals in your field of study beforehand and I will gather a list for the meeting.
-
->5) I hope Jouni agrees to prepare a suggestion about how we could contribute to the IKEBB/Ukraine programme. 
