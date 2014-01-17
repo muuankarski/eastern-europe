@@ -26,7 +26,7 @@ Currently my time is shared between three domains.
 
 # Future
 
-## 1. With Olli Kangas (Academy professor applicattion)
+## 1. With Olli Kangas (Academy professor application - post-doc)
 
 >EVERY MAN FOR HIMSELF AND THE DEVIL TAKE THE HINDMOST! ECONOMIC AND SOCIAL TRANSFORMATION IN DEVELOPED AND DEVELOPING SOCIETIES
 
