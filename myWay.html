@@ -5,7 +5,296 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <title></title>
-  <link rel="stylesheet" href="../web/css/rmarkdown.css" type="text/css" />
+  .title /* Pandoc title header (h1.title) */
+      {
+      	text-align: center;
+  	border-width:0px;
+  	font-size: 1.5em;
+  	margin: 0 0 5px 0;
+  	word-spacing: .1em;
+  	border-bottom: 0px;
+      }
+  
+  .author /* Pandoc author(s) header (h2.author) */
+      {
+      text-align: center;
+      font-size: 1.1em;
+      line-height: 1.2em;
+      border-bottom: 0px;
+      }
+  
+  .date /* Pandoc date header (h3.date) */
+      {
+  	font-family:  Avant Garde, Arial;
+  	text-align: center;
+  	font-size: 1.1em;
+  	line-height: 1.2em;
+      }
+  
+  
+  body {
+      margin-left: 240px;
+      max-width:600px; 
+      border: 0px;
+      font-family: Palatino, Helvetica, sans-serif;
+  }
+  
+  
+  #toc {
+      font-size:0.9em;
+      height: 100%;
+      position: fixed; 
+      width: 220px;
+      left: 5px;
+      padding-top: 20px;
+      color: #003333;
+      border-right: 1px dashed #C1C1C1;
+  }
+  
+  #toc_header {
+      font-size: 1em;
+      font-weight: bold;    
+      border-bottom: 1px dashed #C1C1C1;
+      color: black;
+  }
+  
+  
+  
+  #toc li {
+      padding: 2px 4px;
+      margin-left: 2px;
+  }
+  
+  
+  #toc a {
+      color: #003333;
+      display: block;
+  }
+  
+  
+  
+  blockquote {
+  	padding-left: .5em; 
+      border-left: 2px solid #C1C1C1;
+  	font-style: italic;
+  }
+  
+  
+  pre {	
+     margin-top: 0;
+     max-width: 95%;
+     border: 1px dashed #ccc;
+     white-space: pre-wrap;
+     font-size:1.0em;
+      background: #FFFFFF;
+  }
+  
+  pre code {
+     display: block; 
+     padding: 0.2em;
+     font-size:1.0em;
+  }
+  
+  code.r, code.cpp {
+     background-color: #ECEEF0;
+  }
+  
+  
+  
+  ul {
+  	font-size: 100% !important;
+  	font-family: Palatino, Helvetica, sans-serif;
+  }
+  li {
+  	font-family: Palatino, Helvetica, sans-serif;
+   	font-size: 1em;
+   	line-height: 1.1em;
+  }
+  
+  
+  p {
+  	font-family: Palatino, Helvetica, sans-serif;
+  	padding-top: 2px;
+  	padding-bottom: 2px;
+  	font-size: 1em;
+  	line-height: 1.2em;
+  }
+  ol {
+  	list-style: decimal outside;
+  	list-style-type: decimal;
+  	float: none;
+  	margin: .5em 0 .5em 30px;
+  	padding: 0;
+  }
+  ul {
+  	margin: .2em 0 .2em 10px;
+  	padding: 0;
+  }
+  UL li, ol li {
+  	line-height: 1.1em;
+  	padding: 2px;
+  }
+  a:link {
+  	color: #003333;
+     /* text-decoration: none; */
+  }
+  a:hover {
+  	color: #003333;
+  }
+  a:visited {
+  	color: #003333;
+  }
+  a:focus {
+  	color: #003333;
+  }
+  a:active {
+  	color: #003333;
+  }
+  
+  h1 {
+  	font-family:  Avant Garde, Arial;
+  	font-size: 1.5em;
+  	padding: 2px;
+  	line-height: 1.5em;
+  	/*letter-spacing: 0.06em;
+  	word-spacing: .1em;*/
+          border-bottom: 0.5px solid #555;
+  	text-transform:uppercase;
+  }
+  h2 {
+  	font-family:  Avant Garde, Arial;
+  	font-size: 1.3em;
+  	padding: 2px;
+  	line-height: 1.3em;
+  	letter-spacing: 0.05em;
+  	word-spacing: .1em;
+  	border-bottom: 0.5px dashed #555;
+  /*	text-transform:capitalize;*/
+  
+  }
+  h3 {
+  	font-family:  Avant Garde, Arial;
+  	font-size: 1.1em;
+  	padding: 2px;
+  	line-height: 1.1em;
+  	letter-spacing: 0.05em;
+  	word-spacing: .1em;
+  
+  }
+  h4 {
+  	font-family: Avant Garde;
+  	font-size: 1.0em;
+  	padding: 2px;
+  	line-height: 1.0em;
+  	color: #555;
+  	font-weight: italic;
+  }
+  h5 {
+  	font-family: Avant Garde;
+  	font-size: 1.05em;
+  	padding: 2px;
+  	line-height: 1.15em;
+  	color: #555;
+  	font-weight: normal;
+  }
+  h6 {
+  	font-family: Avant Garde;
+  	font-size: 1em;
+  	padding: 2px;
+  	line-height: 1.1em;
+  	color: #555;
+  	font-weight: normal;
+  }
+  p.caption, table caption, caption{
+      margin-top:0em;
+      padding:2px;
+      font-weight:bold;
+      font-size:1.0em;
+      text-align:left;
+      font-style: italic;
+      color: #555;
+  }
+  
+  /* table styles */
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+      line-height: 1.4em;
+  	font-size: 0.9em;
+  	/*font-family: monospace;*/
+  
+  }
+  .views-table, table {
+  	margin-left: 2px;
+  	margin-bottom: 10px;
+  	/*width: 1300px;*/
+  }
+  tr {
+  	line-height: 1.2em;
+  	border-bottom: #9e9e9e thin solid;
+  }
+  tr:last-child {
+  	line-height: 1.2em;
+  }
+  th {
+  	margin: 5px 0 5px 0;
+  	padding: 0 5px 0 5px;
+  	border-right: #9e9e9e thin solid;
+  	text-align: left;
+  	border-bottom: #9e9e9e thin solid;
+  }
+  th:last-child {
+  	margin: 5px 0 5px 0;
+  	padding: 0 5px 0 5px;
+  	border-right: #9e9e9e thin solid;
+  	text-align: left;
+  }
+  th:first-child {
+  	margin: 5px 0 5px 0;
+  	padding: 0 5px 0 5px;
+  	border: #9e9e9e thin solid;
+  }
+  tbody tr {
+  	line-height: 1.2em;
+  	border-left: #9e9e9e thin solid;
+  }
+  tbody tr:nth-child(odd) {
+  	line-height: 1.2em;
+  	background-color: #efefef;
+  }
+  td {
+  	padding: 0 5px 0 5px;
+  	border-right: #9e9e9e thin solid;
+  }
+  td:last-child {
+  	padding: 0 5px 0 5px;
+  }
+  DL {
+  	margin: .3em 0 .3em 0;
+  }
+  DT {
+  	margin: .3em 0 .3em 0;
+  }
+  DD {
+  	line-height: 1.5em;
+  	list-style: none;
+  	margin: .7em 0 .7em 2em;
+  }
+  td.active {
+  	background-color: transparent!important;
+  }
+  tr:last-child {
+  	border-bottom: #9e9e9e thin solid;
+  }
+  tr:first-child {
+  	border-top: #9e9e9e thin solid;
+  }
+  th:last-child {
+  	border-left: #9e9e9e thin solid;
+  }
+  th:last-child {
+  	border-right: #9e9e9e thin solid;
+  }
 </head>
 <body>
 <div id="TOC">
@@ -55,7 +344,7 @@
 </ol>
 </blockquote>
 <h1 id="current"><a href="#TOC">Current</a></h1>
-<p>Currently I'm sharing my time between three domains:</p>
+<p>Currently I’m sharing my time between three domains:</p>
 <ol style="list-style-type: decimal">
 <li>my own/collaborative projects within my field of science</li>
 <li>software/coding projects
@@ -95,6 +384,6 @@
 <li>tools/research infrastructure for collaborative work</li>
 </ul>
 <h2 id="coe"><a href="#TOC">3. Coe</a></h2>
-<p>If we think that this is a &quot;counterforce&quot; to CoE I would like to see Coe to become productive first..</p>
+<p>If we think that this is a “counterforce” to CoE I would like to see Coe to become productive first..</p>
 </body>
 </html>
